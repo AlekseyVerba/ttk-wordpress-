@@ -1,0 +1,69 @@
+.banner {
+    margin-top: 40px;
+}
+.banner__content {
+    // background: #90E6D1;
+    border-radius: 15px;
+    width: 100%;
+    height: 398px;
+    position: relative;
+    
+}
+.banner__info {
+    position: absolute;
+    top: 105px;
+    left: 106px;
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    color: #000000;
+    text-align: left;
+}
+.banner__content {
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+        object-position: 75%;
+        font-family: 'object-fit: cover; object-position: 75%;';
+    }
+}
+.banner--stock {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+@media (max-width: map-get($laptop, sm)) {
+    .banner {
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+}
+
+@media (max-width: map-get($tablet, md) - 108) {
+    .banner__info {
+        left: 20px;
+    }
+    .banner__title {
+        font-size: 35px;
+    }
+}
+@media (max-width: map-get($mobile, md)) {
+    .banner__title {
+        font-size: 28px !important;
+        line-height: 32px !important;
+    }
+    .banner {
+        margin: 40px 18px;
+    }
+    .banner__info {
+        top: 183px !important;
+        line-height: 32px !important;
+    }
+    .swiper-pagination {
+        bottom: 20px !important;
+    }
+}

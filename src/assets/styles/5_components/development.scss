@@ -1,0 +1,51 @@
+.development {
+    padding: 16px 0 12px;
+}
+.development__inner {
+    display: flex;
+    justify-content: space-between;
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+
+    /* красный */
+
+    color: #D22730;
+}
+.development__name {
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+
+    /* красный */
+
+    color: #D22730;
+    text-decoration: none;
+}
+.social__item-contact {
+    width: 47px;
+    height: 47px;
+}
+@media (max-width: map-get($laptop, sm)) {
+    .development__inner {
+        padding: 0 18px;
+    }
+}
+@media (max-width: map-get($mobile, md)) {
+    .development__inner {
+        font-size: 13px;
+        color: #000;
+    }
+}
+@media (max-width: map-get($mobile, sm) - 16) {
+    .development__inner {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 0 10px;
+    }
+}

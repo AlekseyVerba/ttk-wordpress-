@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.min.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <title>Трассы 1920px</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header>
+                <div class="header-up">
+                    <div class="container">
+                        <div class="header-up__inner">
+                            <div class="header-up__logo">
+                                <a href="#">
+                                    <!-- <img src="../assets/images/static/logo.png" class="header-up__logo--desc" alt="logo"
+                                        class="logo"> -->
+                                    <svg class="header-up__logo--desc logo">
+                                        <use xlink:href="#logo" />
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <img src="../assets/images/static/logo-mobile.svg" class="header-up__logo--mobile"
+                                        alt="logo" class="logo">
+                                </a>
+                            </div>
+                            <div class="header-up__right">
+                                <a href="tel:+79501000979" class="header-up__phone">+7 (950) 1000-979</a>
+                                <div class="header-up__img header-up__img--loup" data-input-loup>
+                                    <form class="header-up__form">
+                                        <input type="text" class="header-up__form-input" placeholder="Поиск...">
+                                        <button type="submit" class="header-up__form-submit">
+                                            <svg class="header-up__loup">
+                                                <use xlink:href="#loup" />
+                                            </svg>
+                                        </button>
+                                    </form>
+                                </div>
+                                <a href="#" class="header-up__img header-up__img-person">
+                                    <svg class="header-up__person">
+                                        <use xlink:href="#person" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="button button--blue button--header">Экспресс-оплата</a>
+                                <button id="hamburger-icon" title="Menu">
+                                    <span class="line line-1"></span>
+                                    <span class="line line-2"></span>
+                                    <span class="line line-3"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-down">
+                    <div class="container">
+                        <nav>
+                            <div class="header-down__wrapper">
+                                <a style="cursor: default;" class="header-down__link">Услуги</a>
+                                <div class="header-down__list-wrapper">
+                                </div>
+                                <ul class="header-down__list">
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Физическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Юридическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Благоустройкам</a>
+                                    </li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Частным
+                                            домам</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-down__wrapper">
+                                <a href="#" class="header-down__link">Акции</a>
+                                <div class="header-down__list-wrapper">
+                                </div>
+                                <ul class="header-down__list">
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Физическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Юридическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Благоустройкам</a>
+                                    </li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Частным
+                                            домам</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-down__wrapper">
+                                <a href="#" class="header-down__link">Камеры онлайн</a>
+                                <div class="header-down__list-wrapper">
+                                </div>
+                                <ul class="header-down__list">
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Физическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Юридическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Благоустройкам</a>
+                                    </li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Частным
+                                            домам</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-down__wrapper">
+                                <a href="#" class="header-down__link">Новости</a>
+                                <div class="header-down__list-wrapper">
+                                </div>
+                                <ul class="header-down__list">
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Физическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Юридическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Благоустройкам</a>
+                                    </li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Частным
+                                            домам</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-down__wrapper">
+                                <a href="#" class="header-down__link">Справочник абонента</a>
+                                <div class="header-down__list-wrapper">
+                                </div>
+                                <ul class="header-down__list">
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Физическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Юридическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Благоустройкам</a>
+                                    </li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Частным
+                                            домам</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-down__wrapper">
+                                <a href="#" class="header-down__link">О компании</a>
+                                <div class="header-down__list-wrapper">
+                                </div>
+                                <ul class="header-down__list">
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Физическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Юридическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Благоустройкам</a>
+                                    </li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Частным
+                                            домам</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-down__wrapper">
+                                <a href="#" class="header-down__link">Контакты</a>
+                                <div class="header-down__list-wrapper">
+                                </div>
+                                <ul class="header-down__list">
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Физическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Юридическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Благоустройкам</a>
+                                    </li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Частным
+                                            домам</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-down__wrapper header-down__wrapper--lc">
+                                <a href="#" class="header-down__link">Личный кабинет</a>
+                                <div class="header-down__list-wrapper">
+                                </div>
+                                <ul class="header-down__list">
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Физическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Юридическим
+                                            лицам</a></li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Благоустройкам</a>
+                                    </li>
+                                    <li class="header-down__item"><a href="#" class="header-down__item-link">Частным
+                                            домам</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <form action="" class="search search--header">
+                                <div class="search__loup">
+                                    <svg class="header-up__loup header-up__loup--search">
+                                        <use xlink:href="#loup" />
+                                    </svg>
+                                </div>
+                                <input type="text" class="search__input" placeholder="Поиск...">
+                            </form>
+                            <div class="social--header">
+                                <a href="#" target="blanc" class="social__item">
+                                    <!-- <img src="../assets/images/static/icon-instagram.svg" alt="insta"> -->
+                                    <svg class="social__item-icon social__item-icon--inst">
+                                        <use xlink:href="#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                                <a href="#" target="blanc" class="social__item">
+                                    <!-- <img src="../assets/images/static/youtube-icon.svg" alt="youtube"> -->
+                                    <svg class="social__item-icon social__item-icon--youtube">
+                                        <use xlink:href="#youtube-icon"></use>
+                                    </svg>
+                                </a>
+                                <a href="#" target="blanc" class="social__item">
+                                    <!-- <img src="../assets/images/static/vk-icon.svg" alt="vk"> -->
+                                    <svg class="social__item-icon social__item-icon--vk">
+                                        <use xlink:href="#vk-icon"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <button class="button button--blue button--header header-down__button">Экспресс-оплата</button>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <div class="breadcrumbs">
+                <div class="container">
+                    <div class="breadcrumbs__inner">
+                        <a href="#" class="breadcrumbs__link">Главная</a> /
+                        <span class="breadcrumbs__item">Услуги для физических лиц</span>
+                    </div>
+                </div>
+            </div>
+            <h1 class="page__main-title">
+                О компании Тулун-ТелеКом
+            </h1>
+            <main class="page page--guide-category page--company">
+                <section class="container">
+                    <div class="page__inner page__inner--camera page__inner--category">
+                        <div class="page__left page__left--camera page__left--questions-block">
+                            <div class="page__left-wrapper page__left-wrapper--questions-block">
+        
+                                <div class="page__content" data-content="0">
+                                    <p>
+                                        Дорогие Земляки! Приветствуем Вас на сайте компании «Тулун-ТелеКом»!!!
+                                        <br><br>
+                                        В первую очередь хочется сказать, что при организации нашей компании мы
+                                        руководствовались любовью и уважением к своей малой Родине, пытались создать что-то
+                                        полезное и новое для людей, проживающих в нашем городе.
+                                        <br><br>
+                                        Компания «Тулун-ТелеКом» является первым оператором связи на территории города
+                                        Тулуна, предоставляющая услуги доступа в интернет по современной технологии FTTB
+                                        (Fiber-To-The-Building– оптика до здания), что коренным образом отличает нас от
+                                        других Интернет-провайдеров. Основным направлением работы компании является развитие
+                                        «домашних сетей» в нашем городе. Создавая качественную и скоростную связь по
+                                        оптоволоконным каналам, объединяя дом за домом, наша компания создала единую
+                                        городскую компьютерную сеть, о которой совсем недавно жители нашего города могли
+                                        только мечтать. Теперь это реальность!!!
+                                        <br><br>
+                                        Наша сеть создана на основе оптоволоконных кабелей связи и современного
+                                        оборудования, что обеспечивает качественную и производительную работу, наличие
+                                        дополнительных ресурсов сети позволяет нашим абонентам почувствовать все
+                                        преимущества перед другими Интернет-провайдерами.
+                                        <br><br>
+                                        Мы стремимся и прилагаем все усилия на то, чтобы предоставляемые нами услуги
+                                        радовали и приносили пользу в дома наших абонентов.
+                                        <br><br>
+                                        <strong>С уважением, ООО «Тулун-ТелеКом»</strong>
+                                    </p>
+                                </div>
+                                <div class="page__content" data-content="1">
+                                    <ol>
+                                        <li>
+                                            <b>Современная технология</b><br>
+                                            <p>Подключение по современной технологии FTTB (Fiber-To-The-Building – оптика до
+                                                здания).</p>
+                                        </li>
+                                        <li>
+                                            <b>Выделенная линия</b><br>
+                                            <p>Подключение производится к порту IP-сети компании, по выделенным каналам.</p>
+                                        </li>
+                                        <li>
+                                            <b>Симметричный доступ к сети</b><br>
+                                            <p>Высокая скорость передачи информации в обе стороны (приём и передача).</p>
+                                        </li>
+                                        <li>
+                                            <b>Никакой лишней аппаратуры</b><br>
+                                            <p> Для подключения не нужен модем, телефон... и т.д.
+                                                Интернет будет подключаться с помощью провода, который вам проведут до самого
+                                                компьютера.</p>
+                                        </li>
+                                        <li>
+                                            <b>Городская сеть </b><br>
+                                            <p>Наши абоненты могут обмениваться большими объёмами данных на огромных скоростях,
+                                                играть в любые игры по сети, и просто общаться независимо от того, какой тариф
+                                                подключен у абонента.</p>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="page__content" data-content="2">
+                                    <p>
+                                        Компания Тулун-Теле-Ком<br>
+                                        123456, г. Москва, ул. Подвойского, д. 14, стр. 7
+                                        <br><br>
+                                        ИНН 7712345678<br>
+                                        КПП 779101001<br>
+                                        БИК 044521234<br>
+                                        Р/С 40702810123450101230 в Московский банк ПАО Сбербанк г. Москва<br>
+                                        К/С 30101234500000000225<br>
+                                        ОКПО 12345678<br>
+                                        ОКАТО 87654321000<br>
+                                        ОКВЭД (основной) 18.15<br>
+                                        ОГРН 1047712345678 <br><br>
+        
+                                        Генеральный директор Петров Сергей Петрович<br>
+                                        Электронная почта info@vesna.ru<br>
+                                        Телефон +749512345678<br>
+                                        Сайт www.vesna.ru
+                                    </p>
+                                </div>
+                                <div class="page__content" data-content="3">
+                                    <div class="page__doc">
+                                        <div class="page__doc-item">
+                                            <div class="page__doc-img">
+                                                <img src="./assets/images/static/doc.png" alt="doc">
+                                            </div>
+                                            <a class="page__doc-link" href="./assets/106470012004277-442102-22_12_20.pdf"
+                                                download>Лицензия №
+                                                137988</a>
+                                        </div>
+                                        <div class="page__doc-item">
+                                            <div class="page__doc-img">
+                                                <img src="./assets/images/static/doc.png" alt="doc">
+                                            </div>
+                                            <a class="page__doc-link" href="./assets/106470012004277-442102-22_12_20.pdf"
+                                                download>Лицензия № 154320</a>
+                                        </div>
+                                        <div class="page__doc-item">
+                                            <div class="page__doc-img">
+                                                <img src="./assets/images/static/doc.png" alt="doc">
+                                            </div>
+                                            <a class="page__doc-link" href="./assets/106470012004277-442102-22_12_20.pdf"
+                                                download>Лицензия № 137967</a>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="page__content" data-content="4">
+                                    <div class="page__doc">
+                                        <div class="page__doc-item">
+                                            <div class="page__doc-img">
+                                                <img src="./assets/images/static/doc.png" alt="doc">
+                                            </div>
+                                            <a class="page__doc-link" href="./assets/106470012004277-442102-22_12_20.pdf"
+                                                download>Договор-заявление</a>
+                                        </div>
+                                        <div class="page__doc-item">
+                                            <div class="page__doc-img">
+                                                <img src="./assets/images/static/doc.png" alt="doc">
+                                            </div>
+                                            <a class="page__doc-link" href="./assets/106470012004277-442102-22_12_20.pdf"
+                                                download>Условия к договору</a>
+                                        </div>
+                                        <div class="page__doc-item">
+                                            <div class="page__doc-img">
+                                                <img src="./assets/images/static/doc.png" alt="doc">
+                                            </div>
+                                            <a class="page__doc-link" href="./assets/106470012004277-442102-22_12_20.pdf"
+                                                download>Приложения к договору</a>
+                                        </div>
+                                        <div class="page__doc-item">
+                                            <div class="page__doc-img">
+                                                <img src="./assets/images/static/doc.png" alt="doc">
+                                            </div>
+                                            <a class="page__doc-link" href="./assets/106470012004277-442102-22_12_20.pdf"
+                                                download>Политика обработки и защиты персональных данных </a>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                                <div class="page__content" data-content="5">
+                                    <div class="services__inner services__inner--page">
+                                        <a href="#" class="services__card  services__card--about services__card--page">
+                                            <div class="services__ img services__img--about services__img--page">
+                                                <img src="../assets/images/static/four-icon.svg" alt="icon">
+                                            </div>
+                                            <div class="services__info-wrapper services__info-wrapper--about">
+                                                <h4 class="services__title services__title--page">
+                                                    Интернет и ТВ
+                                                </h4>
+                                                <p class="services__descr services__descr--page">
+                                                    Интернет и иные/другие виды услуг на высокой скорости по очень выгодной цене
+                                                    Интернет и иные/другие виды услуг на высокой скорости по очень выгодной цене
+                                                    Интернет и иные/другие виды услуг на высокой скорости по очень выгодной цене
+                                                </p>
+                                            </div>
+                                            <button class="services__detailed services__detailed--page detailed">
+                                                Подробнее
+                                            </button>
+                                        </a>
+                                        <a href="#" class="services__card  services__card--about services__card--page">
+                                            <div class="services__ img services__img--about services__img--page">
+                                                <img src="../assets/images/static/four-icon.svg" alt="icon">
+                                            </div>
+                                            <div class="services__info-wrapper services__info-wrapper--about">
+                                                <h4 class="services__title services__title--page">
+                                                    Интернет и ТВ
+                                                </h4>
+                                                <p class="services__descr services__descr--page">
+                                                    Интернет и иные/другие виды услуг на высокой скорости по очень выгодной цене
+                                                    Интернет и иные/другие виды услуг на высокой скорости по очень выгодной цене
+                                                    Интернет и иные/другие виды услуг на высокой скорости по очень выгодной цене
+                                                </p>
+                                            </div>
+                                            <button class="services__detailed services__detailed--page detailed">
+                                                Подробнее
+                                            </button>
+                                        </a>
+                                        <a href="#" class="services__card  services__card--about services__card--page">
+                                            <div class="services__ img services__img--about services__img--page">
+                                                <img src="../assets/images/static/four-icon.svg" alt="icon">
+                                            </div>
+                                            <div class="services__info-wrapper services__info-wrapper--about">
+                                                <h4 class="services__title services__title--page">
+                                                    Интернет и ТВ
+                                                </h4>
+                                                <p class="services__descr services__descr--page">
+                                                    Интернет и иные/другие виды услуг на высокой скорости по очень выгодной цене
+                                                    Интернет и иные/другие виды услуг на высокой скорости по очень выгодной цене
+                                                    Интернет и иные/другие виды услуг на высокой скорости по очень выгодной цене
+                                                </p>
+                                            </div>
+                                            <button class="services__detailed services__detailed--page detailed">
+                                                Подробнее
+                                            </button>
+                                        </a>
+        
+        
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="page__right page__right--camera page__right--tabs">
+                            <ul class="page__right-list page__right-list--guide-category">
+                                <li class="page__right-item" data-tab="0"><span>О компании</span></li>
+                                <li class="page__right-item page__right-item--active" data-tab="1"><span>Преимущества</span></li>
+                                <li class="page__right-item" data-tab="2"><span>Реквизиты</span></li>
+                                <li class="page__right-item" data-tab="3"><span>Лицензии</span></li>
+                                <li class="page__right-item" data-tab="4"><span>Документы</span></li>
+                                <li class="page__right-item" data-tab="5"><span>Услуги и сервисы</span></li>
+                            </ul>
+                            <!-- <div class="page__right-list page__right-list--guide-category">
+                                <div class="page__right-item page__right-item--active"><span
+                                        class="light"></span><span>Beer</span></div>
+                                <div class="page__right-item"><span class="light"></span><span>Wine</span></div>
+                                <div class="page__right-item"><span class="light"></span><span>Lemonade</span></div>
+                            </div> -->
+        
+                            <!-- <select class="page__right-list page__right-list--guide-category page__right-list page__right-list--guide-category-sel" size="2">
+                                <option class="page__right-item" value="1">Тарифы</option>
+                                <option class="page__right-item" value="2">Для юридических лиц</option>
+                                <option class="page__right-item" value="3">Изменения тарифа</option>
+                                <option class="page__right-item" value="4">Семейный пакет</option>
+                            </select> -->
+                        </div>
+                    </div>
+                </section>
+            </main>
+        
+            <!-- <div class="menu">
+                <div class="active"><span class="light"></span><span>Beer</span></div>
+                <div><span class="light"></span><span>Wine</span></div>
+                <div><span class="light"></span><span>Lemonade</span></div>
+            </div> -->
+        
+        
+        
+        
+        
+        
+        
+        </div>
+            <div class="footer">
+                <div class="footer__inner">
+                    <div class="footer__up footer__up--services">
+                        <div class="container">
+                            <div class="footer__wrap">
+                                <a href="#" class="footer__logo">
+                                    <img src="../assets/images/static/footer-logo.png" alt="logo">
+                                </a>
+                                <a href="#" class="footer__logo footer__logo--mobile">
+                                    <img src="../assets/images/static/footer-logo-mobile.png" alt="logo">
+                                </a>
+                                <div class="footer__nav-wrapper footer__nav-wrapper--one">
+                                    <ul class="footer__nav">
+                                        <li class="footer__item">
+                                            <a href="#" class="footer__link">Услуги</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="#" class="footer__link">Акции</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="#" class="footer__link">Камеры онлайн</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="#" class="footer__link">Новости</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="#" class="footer__link">Справочник абонента</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer__nav-wrapper footer__nav-wrapper--two">
+                                    <ul class="footer__nav">
+                                        <li class="footer__item">
+                                            <a href="#" class="footer__link">О компании</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="#" class="footer__link">Контакты</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="#" class="footer__link">Личный кабинет</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <form action="" class="search search--one">
+                                    <input type="text" class="search__input" placeholder="Поиск...">
+                                    <button type="submit" class="search__loup search__loup--one">
+                                        <!-- <img src="../assets/images/static/white-loup.svg" alt="loup"> -->
+                                        <svg class="search__loup-img">
+                                            <use xlink:href="#white-loup"></use>
+                                        </svg>
+                                    </button>
+                                </form>
+                                <div class="footer__nav-wrapper footer__nav-wrapper--three">
+                                    <ul class="footer__nav footer__nav-wrapper footer__nav-wrapper--mobile">
+                                        <li class="footer__item">
+                                            <span class="footer__item__title">Контакты:</span>
+                                        </li>
+                                        <li class="footer__item footer__item--mail">
+                                            <a href="mailto:tuluntk@mail.ru" class="footer__link">tuluntk@mail.ru</a>
+                                        </li>
+                                        <li class="footer__item footer__item--phone">
+                                            <a href="tel:+79501000979" class="footer__link">+7 (950) 1000-979</a>
+                                        </li>
+                                        <li class="footer__item footer__item--adress">
+                                            <address class="footer__link ">Россия, Иркутская область, <br>г. Тулун, ул. Ленина,
+                                                дом 19,
+                                                кв. 23</address>
+                                        </li>
+                                        <li class="footer__item footer__item--download">
+                                            <a href="#" download class="footer__item-link--download">Скачать реквизиты</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer__info">
+                                    <form action="" class="search search--two">
+                                        <input type="text" class="search__input" placeholder="Поиск...">
+                                        <button type="submit" class="search__loup search__loup--two">
+                                            <!-- <img src="../assets/images/static/white-loup.svg" alt="loup"> -->
+                                            <svg class="search__loup-img search__loup-img--two">
+                                                <use xlink:href="#white-loup"></use>
+                                            </svg>
+                                        </button>
+                                    </form>
+                                    <div class="social">
+                                        <a href="#" target="blanc" class="social__item">
+                                            <svg class="social__item-footer">
+                                                <use xlink:href="#icon-instagram"></use>
+                                            </svg>
+                                        </a>
+                                        <a href="#" target="blanc" class="social__item">
+                                            <svg class="social__item-footer">
+                                                <use xlink:href="#youtube-icon"></use>
+                                            </svg>
+                                        </a>
+                                        <a href="#" target="blanc" class="social__item">
+                                            <svg class="social__item-footer">
+                                                <use xlink:href="#vk-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="development">
+                    <div class="container">
+                        <div class="development__inner">
+                            <div class="development__year">© 2021</div>
+                            <div class="development__name">Разработка и продвижение сайта — true.code</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
+    <div class="svg-main" style="position: absolute; opacity: 0; bottom: 0; z-index: -500;">
+        <include src="build/assets/sprites/sprite.html"></include>
+    </div>
+</body>
+
+</html>

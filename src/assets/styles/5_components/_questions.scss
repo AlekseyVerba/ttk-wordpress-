@@ -1,0 +1,108 @@
+.title--questions {
+    margin-bottom: 30px;
+}
+.questions__item {
+    padding: 20px 20px 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(130, 143, 169, 0.3);
+    border-radius: 6px;
+    transition: 2s all;
+}
+.questions__title {
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+
+    /* синий */
+
+    color: #26213F;
+    transition: .5s all;
+}
+.questions__title--active {
+    color: #504587;
+}
+.questions__up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+}
+.button--all-rate {
+    border-radius: 4px;
+}
+.block-question__input {
+    height: 48px;
+}
+.question__answer {
+    // margin-top: 20px;
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    // overflow: hidden;
+    // opacity: 0;
+    // height: 0;
+    // transition: 2s all;
+    display: none;
+    margin-top: 20px;
+    /* черный */
+    transform: scale(0);
+    color: #000000;
+    z-index: 500;
+    // pointer-events: none
+}
+.question__answer--active {
+    // transition: 2s all;
+    transform: scale(1);
+    // margin-top: 20px;
+    // height: 100%;
+    // opacity: 1;
+    // overflow: visible;
+    // transform: translateY(0);
+    // pointer-events:visible;
+}
+.questions__item + .questions__item {
+    margin-top: 20px;
+}
+
+.questions__arrow {
+    img {
+        transition: .5s all;
+    }
+}
+.questions__inner {
+    padding: 0 20px;
+}
+@media (max-width: map-get($mobile, md)) {
+    .questions__title {
+        font-size: 20px;
+        line-height: 23px;
+        color: #000000;
+
+    }
+    .questions__up {
+        align-items: flex-start;
+        img {
+            height: 9px;
+            width: 17px;
+        }
+    }
+    .questions__title--active {
+        font-size: 20px;
+        line-height: 23px;
+        color: #504587;
+
+    }
+}
+@media (max-width: map-get($mobile, sm) - 70) {
+    .questions__title {
+        font-size: 16px;
+    }
+    .questions__title--active {
+        font-size: 16px;
+    }
+}

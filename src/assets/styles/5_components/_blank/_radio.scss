@@ -1,0 +1,180 @@
+.rad_selection {
+	color: #ffffff;
+	font-family: tahoma;
+	font-size: 11px;
+	height: 34px;
+	overflow: hidden;
+	cursor: pointer;
+	border-bottom: 1px solid #434242;
+}
+
+.rad_selection img {
+	width: 22px;
+	height: 22px;
+	padding: 6px;
+	vertical-align: middle;
+	border: none;
+	box-sizing: content-box;
+}
+
+#rad_block_play {
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 4px;
+	padding: 12px;
+	float: left;
+}
+
+#rad_select_main_text, #rad_stationname, #rad_select_main_image {
+	vertical-align: middle;
+    font-family: TT Commons;
+font-style: normal;
+    font-weight: bold;
+    font-size: 30.365px;
+    line-height: 35px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    
+    /* #504587 */
+
+    color: #504587;
+}
+
+#rad_play_btn {
+	cursor: pointer;
+	margin: 0px;
+	vertical-align: middle;
+	border: none;
+}
+
+#rad_select {
+	font-size: 12px;
+	font-family: tahoma;
+	cursor: pointer;
+	width: 170px;
+}
+
+#rad_stationname {
+    display: flex;
+	float:left;
+    align-items: flex-start;
+	width: 155px;
+	// overflow: hidden;
+	white-space: nowrap;
+}
+
+#rad_select_main_image {
+	width: 36px;
+	height: 36px;
+	box-sizing: content-box;
+}
+
+.rad_select_small_image {
+	width: 22px;
+	height: 22px;
+	padding: 6px;
+}
+
+
+#rad_dropdown {
+	float:left;
+	padding-top: 18px;
+    display: none;
+}
+
+#rad_list {
+	position: absolute;
+	z-index: 1000;
+	background-color: #2c2c2c;
+	margin-top: 48px;
+	margin-left: 9px;
+	max-height: 210px;
+	width: 170px;
+	overflow: auto;
+}
+
+#rad_block_select {
+	display:inline-block;
+	float:left;
+}
+
+#rad_block_volume{
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 4px;
+	padding: 12px;
+	float: right;
+}
+
+#rad_sound_btn {
+	cursor: pointer;
+	margin: 0px;
+	vertical-align: middle;
+	border: none;
+}
+
+#rad_volume {
+	position: absolute;
+	z-index: 1000;
+	background-color: #2c2c2c;
+	padding: 14px;
+	margin-top: 12px;
+	margin-left: -4px;
+	height: 100px;
+	width: 6px;
+	overflow: hidden;
+	box-sizing: content-box;
+}
+
+#rad_volume_range {
+	background-color: #999;
+	width: 6px;
+	height: 100px;
+	margin: 15px 13px;
+	display: table-cell;
+	vertical-align: bottom;
+	box-sizing: content-box;
+}
+
+#rad_volume_bar {
+	background-color: #fff343;
+	width: 6px;
+	box-sizing: content-box;
+}
+
+#rad_block_logo {
+	padding-top: 0px;
+	margin-top: 12px;
+	float:left;
+	margin-left: 50px;
+}
+
+#rad_logo {
+	border: none;
+}
+
+#rad_player {
+	height: 48px;
+	min-width: 180px;
+}
+
+#rad_select_main_image {
+    width: 81px;
+    height: 81px;
+}
+#rad_block_play {
+    float: none !important;
+    padding: 44px 0;
+}
+#rad_block_volume {
+    padding: 31px 0;
+}
+#rad_block_play {
+    padding: 0 !important;
+}
+#rad_player {
+    padding: 13px 0 !important;
+    box-sizing: border-box !important;
+}

@@ -1,0 +1,18 @@
+
+.search__loup-img {
+    transition: .3s all;
+    fill: white;
+    &:hover {
+        fill: rgb(170, 160, 223);
+    }
+}
+.search__loup--two {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.search--two {
+    input {
+        margin-left: 10px;
+    }
+}

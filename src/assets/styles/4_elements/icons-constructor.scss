@@ -1,0 +1,22 @@
+
+.rate__content-galka {
+    fill: #26213F;
+    width: 89px;
+    height: 89px;
+    transition: .3s all;
+    cursor: pointer;
+    display: none;
+    &:hover {
+        fill: #504587;
+    }
+}
+.rate__content-plus {
+    fill: white;
+    width: 89px;
+    height: 89px;
+    transition: .3s all;
+    cursor: pointer;
+    &:hover {
+        fill: #f7f3f3;
+    }
+}

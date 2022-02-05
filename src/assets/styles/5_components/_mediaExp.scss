@@ -1,0 +1,14 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+    .sound__wrapper input {
+        margin-top: -10px;
+    }
+    .radio__sound-regular--active {
+        display: block;
+    }
+ }
+
+ @media (max-width: 1236px) and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+    .radio__range {
+        top: -56px;
+    }
+ }

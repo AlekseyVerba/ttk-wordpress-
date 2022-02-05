@@ -1,0 +1,46 @@
+.bank-details {
+    display: none;
+    margin-bottom: 40px;
+    a {
+        font-family: TT Commons;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 120%;
+        color: #000000;
+        text-decoration: none;
+    }
+}
+.bank-details__inner {
+    padding: 0 20px;
+}
+.bank-details__title {
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #26213F;
+    margin-bottom: 20px;
+}
+
+.bank-details__descr {
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    /* or 22px */
+
+
+    /* черный */
+
+    color: #000000;
+}
+
+@media (max-width: map-get($tablet, md) - 96) {
+    .bank-details {
+        display: block;
+    }
+}

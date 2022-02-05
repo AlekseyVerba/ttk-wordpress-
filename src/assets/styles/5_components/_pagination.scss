@@ -1,0 +1,111 @@
+.pagination__item {
+    padding: 10px 10px 12px 10px;
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #CECACA;
+    border-radius: 4px;
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #26213F;
+    text-decoration: none;
+}
+.pagination__item + .pagination__item {
+    margin-left: 8px;
+}
+.pagination {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.pagination__arrow {
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid #26213F;
+    border-right: 2px solid #26213F;
+}
+.pagination__arrow--left {
+    transform: rotate(225deg);
+}
+.pagination__arrow--right {
+    transform: rotate(45deg);
+}
+.pagination__item--arrow-left {
+    padding: 9px 12px 13px;
+    border: 1px solid #26213F;
+    opacity: .5;
+    transition: .3s all;
+}
+.pagination__item--arrow-right {
+    padding: 9px 7px 13px;
+    border: 1px solid #26213F;
+    opacity: .5;
+    transition: .3s all;
+}
+.pagination__item--arrow-left:hover {
+    opacity: 1;
+}
+.pagination__item--arrow-right:hover {
+    opacity: 1;
+}
+.pagination__item--active {
+    border: 1px solid #D22730;
+    color: #D22730;
+}
+.nav-links {
+    display: flex;
+}
+.next, .prev {
+    position: relative;
+}
+
+.pagination__arrow--right {
+    position: absolute;
+    left: 7px;
+    bottom: 9px;
+}
+.pagination__arrow--left {
+    position: absolute;
+    bottom: 9px;
+    left: 13px;
+}
+.page-numbers {
+    font-family: TT Commons;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    width: 32px;
+    height: 32px;
+    padding: 10px 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #26213f;
+    border: 1px solid #cecaca;
+    border-radius: 4px;
+    background: #fff;
+}
+.page-numbers + .page-numbers {
+    margin-left: 8px;
+}
+.screen-reader-text {
+    display: none;
+}
+.page-numbers.current {
+    border: 1px solid #D22730;
+    color: #D22730;
+    font-family: TT Commons;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    width: 32px;
+    height: 32px;
+    padding: 10px 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    background: #fff;
+}

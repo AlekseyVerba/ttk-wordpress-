@@ -1,0 +1,108 @@
+
+
+.error-title {
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 80px;
+    text-align: center;
+    margin-top: 70px;
+    /* красный */
+
+    color: #D22730;
+    margin-bottom: 33px;
+}
+.error__content {
+    padding: 48px;
+    max-width: 812px;
+    margin: 0 auto;
+    border: 2px solid #26213F;
+    box-shadow: 0px 10px 20px rgba(130, 143, 169, 0.3);
+    border-radius: 10px;
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    margin: 0 auto;
+    color: #000000;
+    a {
+        color: #504587;
+    }
+}
+.error__list {
+    list-style: decimal;
+}
+.error__item + .error__item {
+    margin-top: 30px;
+}
+.error__item  {
+    padding-left: 20px;
+    &::marker {
+        font-family: TT Commons;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 25px;
+
+        /* красный */
+
+        color: #D22730;
+        // margin-right: 20px;
+    }
+}
+.error .container {
+    padding: 0 18px;
+}
+.error__content {
+    position: relative;
+}
+.error__img {
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fafbfb;
+    z-index: 500;
+}
+.error__img {
+    z-index: -1;
+}
+.error__content {
+    z-index: 1000;
+}
+.error__list {
+    z-index: 1000;
+}
+.breadcrumbs--error {
+    display: none;
+}
+
+@media (max-width: map-get($mobile, md)) {
+    .breadcrumbs--error {
+        display: block;
+    }
+    .error-title {
+        font-size: 40px;
+        line-height: 46px;
+        margin-top: 0;
+    }
+    .error__content {
+        padding: 50px 17px 30px 50px;
+    }
+    .error__item {
+        padding-left: 18px;
+    }
+    .error__content {
+        font-family: TT Commons;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+
+        /* черный */
+
+        color: #000000;
+    }
+}

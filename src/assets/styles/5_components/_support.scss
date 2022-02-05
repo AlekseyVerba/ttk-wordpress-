@@ -1,0 +1,124 @@
+.support__inner {
+    display: flex;
+    justify-content: center;
+    padding: 0 18px;
+}
+.supprt__wrapper-info {
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 30px;
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    box-shadow: 0px 10px 20px rgba(130, 143, 169, 0.3);
+    // min-height: 408px;
+    width: 100%;
+    /* черный */
+
+    color: #000000;
+    a {
+        color: #000000;
+        text-decoration: none;
+    }
+}
+.support__info {
+    width: 44%;
+}
+.support {
+    label {
+        display: block;
+    }
+}
+.support .mistake {
+    top: -7px;
+}
+.support__mini-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.support__descr {
+    margin-bottom: 30px;
+}
+.support__descr:last-child {
+    margin-bottom: 0;
+}
+.support__form {
+    width: 35%;
+}
+.white-form--support {
+    margin-top: 0;
+    padding: 33px 36px 30px 36px;
+}
+.support__info {
+    margin-right: 70px;
+}
+.white-form__title--support {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 41px;
+
+    /* синий */
+
+    color: #26213F;
+    margin-bottom: 10px;
+}
+.white-form__input--support {
+    height: 44px;
+}
+.white-form__input--area-support {
+    min-height: 94px;
+}
+.white-form__subtitle {
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 137% */
+    display: inline-block;
+    margin-bottom: 3px;
+    color: #3F3F3F;
+
+}
+.white-form__label + .white-form__label {
+    display: block;
+    margin-top: 15px;
+}
+
+@media (max-width: map-get($tablet, lg) - 45) {
+    .support__info {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .support__form {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .support__inner {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: map-get($mobile, md)) {
+    .support__mini-title {
+        font-size: 18px;
+    }
+    .supprt__wrapper-info {
+        padding: 30px 20px;
+    }
+    .white-form--support {
+        padding: 25px 20px;
+    }
+    .white-form--support {
+        margin-bottom: 0;
+    }
+    .white-form__title--support {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+

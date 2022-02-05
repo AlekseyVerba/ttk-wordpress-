@@ -1,0 +1,239 @@
+.services {
+    margin-bottom: 100px;
+}
+
+.services__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+.services__card {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(130, 143, 169, 0.3);
+    border-radius: 10px;
+    width: 31.3%;
+    padding: 26px 30px 60px 0;
+    position: relative;
+    cursor: pointer;
+    min-height: 320px;
+    margin-right: 36px;
+    margin-bottom: 36px;
+    display: block;
+    text-decoration: none;
+    transition: .3s all;
+}
+.services__detailed {
+    bottom: 25px;
+}
+.services__info-wrapper {
+    padding-left: 30px;
+}
+.services__card:hover {
+    box-shadow: 0px 10px 20px rgba(130, 143, 169, 0.6);
+}
+.services__card:nth-child(3n) { 
+        margin-right: 0;
+}
+.services__img {
+    margin-bottom: 24px;
+    padding-left: 26px;
+    img {
+        width: 66px;
+        height: 66px;
+    }
+}
+.detailed {
+    padding-left: 0;
+}
+.services__title {
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    color: $purple;
+    margin-bottom: 10px;
+}
+.services__descr {
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.button--zayvka {
+    text-align: center;
+}
+.page .services__card--about {
+    padding: 14px 0 56px;
+}
+.services__info-wrapper {
+    padding: 0 20px;
+}
+
+@media (max-width: map-get($laptop, sm)) {
+    .services__inner {
+        padding: 0 18px;
+    }
+}
+@media (max-width: map-get($laptop, sm) - 44) {
+    .services__card--guide {
+        width: 46.9%;
+        &:last-child {
+            margin-right: 0 !important;
+        }
+    }
+}
+@media (max-width: map-get($laptop, sm) - 40) {
+    .services__card--main:nth-child(+n+3) {
+        margin-left: 0;
+    }
+}
+@media (max-width: map-get($laptop, sm) - 44) {
+    .services__card {
+        width: 388px;
+    }
+    .services__card:first-child {
+        margin-left: 0;
+    }
+    .services__card:nth-child(+n+3) {
+        margin-left: 0;
+    }
+        .services__inner {
+        justify-content: center;
+    }
+    // .services--guide .services__inner {
+    //     justify-content: space-between;
+    // }
+    .services__card:nth-child(3n) {
+        margin-right: 36px;
+    }
+    .services__card--main:nth-child(3n) {
+        margin-right: 0;
+    }
+    .services__card:nth-child(+2n+2) {
+        margin-right: 0;
+    } 
+    .services__card--main:nth-child(+2n+2) {
+        margin-right: 36px;
+    }
+    .services__card:last-child {
+        margin-right: 20px;
+        margin-left: px;
+    }
+    .services__card--main {
+        width: 31.3%;
+    }
+}
+@media (max-width: map-get($laptop, sm) - 64) {
+    .services__card--main {
+        width: 30.9%;
+    }
+}
+@media (max-width: map-get($tablet, lg) - 12) {
+    .services__card:last-child {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+@media (max-width: map-get($tablet, lg) + 23) {
+    .services__card--main {
+        width: 30.6%;
+    }
+}
+@media (max-width: map-get($tablet, lg) - 19) {
+    .services__card--main {
+        width: 46%;
+    }
+    .services__card--main:nth-child(3n) {
+        margin-right: 36px;
+    }
+    .services__card--main:nth-child(+2n+2) {
+        margin-right: 0;
+    }
+}
+
+
+@media (max-width: map-get($tablet, lg) - 177) {
+    .services__card {
+        width: 100%;
+        margin-right: 0 !important;
+        min-height: 240px;
+        img {
+            width: 54px;
+            height: 54px;
+        }
+    }
+    .services__inner {
+        padding: 0 18px;
+    }
+    .questions__item--guide + .questions__item--guide {
+        margin-top: 20px;
+    }
+}
+@media (max-width: map-get($mobile, md)) {
+    .services__img {
+        padding-left: 0;
+    }
+    .services__info-wrapper {
+        padding-left: 0;
+    }
+    .services__detailed {
+        left: 20px;
+        bottom: 20px;
+    }
+    .services__img {
+        margin-bottom: 30px;
+    }
+    .services__card {
+        padding: 20px 20px 81px;
+        img {
+            width: 54px;
+            height: 54px;
+        }
+    }
+    .services {
+        margin-bottom: 40px;
+    }
+    .services__detailed--sidebar {
+        display: none;
+    }
+    .services__bottom  {
+        padding-bottom: 60px;
+    }
+    .services__info-wrapper--about {
+        padding: 0 20px;
+    }
+    .services__top--guide {
+        padding: 20px;
+    }
+    .services__card--guide {
+        padding: 0;
+    }
+    .services__card--guide {
+        margin-bottom: 20px;
+    }
+    .title--guide {
+        font-family: TT Commons;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        color: #504587;
+    }
+    .services__img--guide {
+        margin-bottom: 0;
+    }
+    .services__card--guide {
+        min-height: 234px;
+    }
+    .questions__item--guide + .questions__item--guide {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: map-get($mobile, sm) - 16) {
+    .services__title {
+        font-size: 22px;
+    }
+}

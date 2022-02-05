@@ -1,0 +1,53 @@
+.badForm {
+    border: 1px solid #D22730 !important;
+    outline: none;
+    position: relative;
+    display: block;
+    &::after {
+        content: "gfgdf";
+    }
+}
+.goodForm {
+    border: 1px solid #8BC70B !important;
+}
+.mistake {
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    right: 0;
+    top: -20px;
+    position: absolute;
+    color: #D22730;
+    text-align: right;
+}
+.input-status {
+    position: relative;
+    width: 63%;
+    margin-right: 20px;
+}
+label {
+    position: relative;
+}
+.modal__form {
+    .mistake {
+        top: 14px;
+    }
+    label {
+        display: block;
+    }
+}
+@media (max-width: map-get($tablet, lg) - 109) {
+    .input-status {
+        order: 0;
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: map-get($mobile, md) - 25) {
+    .input-status {
+        width: 90%;
+    }
+}

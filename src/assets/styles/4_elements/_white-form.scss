@@ -1,0 +1,52 @@
+.white-form {
+    padding: 36px;
+    background: #FAFBFB;
+    box-shadow: 0px 10px 20px rgba(130, 143, 169, 0.3);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.white-form__title {
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.white-form__label--name {
+    margin-bottom: 15px;
+    display: block;
+}
+.white-form__input {
+    font-family: TT Commons;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #CECACA;
+    border-radius: 4px;
+    width: 100%;
+    &::placeholder {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        display: flex;
+        align-items: center;
+
+        /* #CECACA */
+
+        color: #CECACA;
+    }
+}
+.white-form__form {
+    width: 100%;
+}
+.white-form__input + .white-form__input {
+    margin-top: 15px;
+}
+
+.white-form__input--area {
+    min-height: 129px;
+    margin-bottom: 12px;
+}

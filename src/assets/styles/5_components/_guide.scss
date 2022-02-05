@@ -1,0 +1,68 @@
+
+
+.services__top--guide {
+    display: flex;
+    align-items: center;
+}
+.services__img--guide {
+    margin-right: 25px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.services__title--guide {
+    margin-bottom: 0;
+}
+.services__card--guide {
+    padding: 0;
+    min-height: 100px;
+}
+.services__top--guide {
+    padding: 14px;
+    border-bottom: 1px solid #CECACA;
+}
+.services__bottom{
+    padding: 20px 20px 55px 20px;
+}
+.services__detailed--guide {
+    left: 20px;
+    bottom: 15px;
+    padding-left: 0;
+}
+.services__descr--guide {
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+
+    /* черный */
+
+    color: #000000;
+}
+.title--guide {
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 46px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* синий */
+
+    color: #26213F;
+}
+.services--guide {
+    margin-bottom: 52px;
+}
+
+
+
+
+// @media (max-width: map-get($mobile, md)) {
+  
+// }
+
+
+

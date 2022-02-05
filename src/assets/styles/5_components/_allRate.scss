@@ -1,0 +1,89 @@
+label {
+    position: relative;
+}
+.all-rate__inner {
+    background: $blue;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // min-height: 145px;
+    padding: 40px 48px 36px 43px;
+
+}
+
+.all-rate__left {
+    display: flex;
+    align-items:center;
+}
+.all-rate__title {
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 41px;
+    /* белый */
+
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.all-rate {
+    margin-bottom: 100px;
+    a {
+        text-decoration: none;
+    }
+}
+
+
+@media (max-width: map-get($laptop, sm)) {
+    .all-rate__inner {
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+}
+@media (max-width: map-get($laptop, sm) - 233) {
+    .all-rate__inner {
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+}
+@media (max-width: map-get($tablet, lg) - 19) {
+    .all-rate__title {
+        max-width: 360px;
+    }
+}
+@media (max-width: map-get($tablet, lg) - 214) {
+    .all-rate__inner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .all-rate__left {
+        flex-direction: column;
+    }
+    .all-rate__img {
+        margin-bottom: 30px;
+    }
+    .all-rate__title {
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+}
+@media (max-width: map-get($mobile, md)) {
+    .all-rate__inner {
+        padding: 30px;
+        height: 279px;
+    }
+    .all-rate__title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .all-rate {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: map-get($mobile, sm) - 16) {
+    .all-rate__inner {
+        padding: 10px;
+    }
+}
